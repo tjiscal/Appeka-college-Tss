@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="x-icon" href="sa.jpg">
+    <title>ACC Dashboard</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.level-selection {
+    margin-bottom: 20px;
+}
+
+.level {
+    background: #fff;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.modules {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.module {
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    flex: 1 1 calc(30% - 10px);
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.module:hover {
+    background: #0056b3;
+}
+div{
+    cursor: pointer;
+}
+input{
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Accounting (ACC)</h1>
+        </header>
+         <a href="appeka web.html">Back</a>
+        <main>
+            <section class="level-selection">
+               
+                <h2>Select class</h2>
+                <nav>
+                    <div class="cycle-box">
+                        <input type="radio" id="Level 3" name="class" value="Level 3">
+                        <label for="male" class="option">S.4</label>
+                
+                        <input type="radio" id="Level 4" name="class" value="Level 4">
+                        <label for="female" class="option">S.5</label>
+                
+                        <input type="radio" id="Level 5" name="class" value="Level 5">
+                        <label for="custom" class="option">S.6</label>
+                    </div>
+                </nav>
+            </section>
+
+            <section id="level4" class="level">
+                <h2>S.4</h2>
+                <div class="modules">
+                   <a href="S4ACC.html"> <div class="module">Lesson</div></a>
+                   
+                </div>
+            </section>
+
+            <section id="level4" class="level">
+                <h2>S.5</h2>
+                <div class="modules">
+                   <a href="S5ACC.html"> <div class="module">Lesson</div></a>
+
+                </div>
+            </section>
+
+            <section id="S.6" class="class">
+                <h2>S.6</h2>
+                <div class="modules">
+                    <a href="s6acc.html"><div class="module">Lesson</div></a>
+                  
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

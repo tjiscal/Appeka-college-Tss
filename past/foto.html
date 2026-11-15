@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>foto</title>
+  
+<style>
+    div{
+        height: 20px;
+        width: 50%;
+    }
+     .slideshow {
+      width: 90%;
+      height: 400px;
+      overflow: hidden;
+      position: relative;
+      margin: auto;
+      border: 3px solid #333;
+    }
+
+    .slides {
+      display: flex;
+      width: 2400PX; /* 600px * 4 images */
+      animation: slide 16s infinite;
+    }
+
+    .slides img {
+      width: 600%;
+      height: 400px;
+    
+    }
+
+    @keyframes slide {
+      0%    { transform: translateX(0); }
+      20%   { transform: translateX(0); }
+      25%   { transform: translateX(-600px); }
+      45%   { transform: translateX(-600px); }
+      50%   { transform: translateX(-1200px); }
+      70%   { transform: translateX(-1200px); }
+      75%   { transform: translateX(-1800px); }
+      95%   { transform: translateX(-1800px); }
+      100%  { transform: translateX(0); }
+    }
+    div{
+      height: 10px;
+      width: 100%;
+    }
+    a{
+      position: absolute;
+      bottom: 90%;
+    }
+    body{
+    background-color: burlywood;
+</style>
+<div class="slideshow">
+    <div class="slides">
+     <img class="translated-img" src="acc.s4.jpg" alt="Image 1">
+<img class="translated-img" src="ac s4.jpg" alt="Image 2">
+<img class="translated-img" src="l3 nit.jpg" alt="Image 3">
+<img class="translated-img" src="l3bdc.jpg" alt="Image 4">
+<img class="translated-img" src="acc.s6.jpg" alt="Image 5">
+<img class="translated-img" src="bdc a.jpg" alt="Image 6">
+<img class="translated-img" src="bdc.jpg" alt="Image 7">
+<img class="translated-img" src="bdc.l5.jpg" alt="Image 8">
+<img class="translated-img" src="l4bdc.jpg" alt="Image 9">
+<img class="translated-img" src="l4nit.jpg" alt="Image 10">
+<img class="translated-img" src="l5.jpg" alt="Image 11">
+<img class="translated-img" src="s4 acc.jpg" alt="Image 12">
+<img class="translated-img" src="s4.jpg" alt="Image 13">
+    </div>
+</head>
+<body>
+    <a href="appeka web.html">back</a>
+
+  
+</body>
+</html>
